@@ -1,0 +1,260 @@
+*{
+    font-family: Poppins;
+    font-weight: 100;
+    color: white;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("../img/bg3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: grid;
+    margin-top: 5rem;
+}
+
+.exit{
+    display: flex;
+    place-items: left;
+    padding-top: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    justify-content: space-between;
+}
+
+.exit svg {
+    display: flex;
+    color: white;
+
+    background: rgba(93,109,220,1);
+    height: 50px;
+    width: 50px;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    padding-bottom: 27rem;
+}
+
+.container h1{
+        display:block;
+        place-items: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+        color: white;
+        font-family: Poppins;
+        font-weight: Regular;
+        font-weight: 100;
+        font-size: 50px;
+}
+
+.row{
+    display: flex;
+    padding-top: 5.4em;
+    padding-bottom: 5rem ;
+    /* padding: 2rem; */
+    justify-content: space-between;
+}
+
+.col-md-6{
+    padding: 2.4rem;
+}
+
+.btn{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #5194BE;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #69BCB4;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn2{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #B8C8E2;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn3a{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #F8A53B;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn3b{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #CAB9A9;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn4{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #69BCB4;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn5{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #A19132;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn6{
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    line-height: 55%;
+
+    color: black;
+    width: 8rem;
+    height: 8rem;
+    background-color: #E86F50;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1 p,
+.btn2 p,
+.btn3a p,
+.btn3b p,
+.btn4 p,
+.btn5 p,
+.btn6 p{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.btn p{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.quiz{
+    padding-top: 3.7rem;
+}
+
+button{
+    font-size: 1.7rem;
+    background-color: #5D6DDC;
+    border: 0px;
+
+    width: 16rem;
+    height: 3rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}

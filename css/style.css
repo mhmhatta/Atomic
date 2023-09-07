@@ -1,0 +1,45 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+    place-items: center;
+    height: 30vh;
+}
+
+
+.img_front img, .playBtn {
+    height: 100%;
+    margin-top: 10rem;
+    margin-left: 37rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.playBtn{
+    font-size: 90px;
+    color: white;
+    display: grid;
+    place-items: center;
+    width: 280px;
+    height: 140px;
+    margin-top: 2rem;
+    background: rgba(93,109,220,1);
+    opacity: 1;
+    border-radius: 4rem;
+}
+
+.playBtn::before{
+    content: "";
+    display: inline block;
+    border-left: 0.7em solid;
+    border-top: 0.45em solid transparent;
+    border-bottom: 0.45em solid transparent; 
+}

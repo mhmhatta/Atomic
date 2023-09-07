@@ -1,0 +1,61 @@
+*{
+    font-family: Poppins;
+    font-weight: Regular;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("../img/bg3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.period img{
+    border-radius: 5rem;
+    width: fit-content;
+    height: 90%;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 2.2rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    justify-content: space-between;
+}
+
+svg{
+    display: flex;
+    color: white;
+    background: rgba(93,109,220,1);
+    height: 42px;
+    width: 42px;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+button{
+    color: white;
+    font-size: 1.7rem;
+    background-color: #5D6DDC;
+    border: 0px;
+
+    width: 16rem;
+    height: 3rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}
